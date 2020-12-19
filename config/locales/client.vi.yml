@@ -1,0 +1,37 @@
+vi:
+  js:
+    filters:
+      following:
+        title: "Đang theo đuôi"
+        help: "Những chủ đề của người bạn đang theo đuôi"
+    notifications:
+      following: "<span>{{username}}</span> {{description}}"
+      following_description: "theo đuôi bạn"
+      following_posted: "<span>{{username}}</span> {{description}}"
+      following_replied: "<span>{{username}}</span> {{description}}"
+      popup:
+        following: "{{username}} theo đuôi bạn"
+        following_posted: '{{username}} vừa đăng bài "{{topic}}" - {{site_title}}'
+        following_replied: '{{username}} vừa comment "{{topic}}" - {{site_title}}'
+    topics:
+      none:
+        following: "Không có chủ đề từ những người bạn theo đuôi"
+      bottom:
+        following: "Không có thêm chủ đề nào từ những người bạn theo đuôi"
+    user:
+      follow_nav: "Theo đuôi"
+      follow:
+        label: "Theo đuôi"
+      following:
+        label: "Đang theo đuôi"
+        none: "Bạn không theo đuôi ai"
+        none_other: "{{username}} không theo đuôi bạn"
+      followers:
+        label: "Người theo đuôi"
+        none: "Không ai theo đuôi bạn"
+        none_other: "Không có ai theo đuôi {{username}}"
+      follow_notifications_options:
+        notify_followed_user_when_followed: "Thông báo thành người dùng khi tôi theo đuôi họ."
+        notify_me_when_followed: "Thông báo cho tôi biết khi có người theo đuôi tôi."
+        notify_me_when_followed_replies: "Thông báo cho tôi khi người tôi theo đuôi đăng comment."
+        notify_me_when_followed_posts: "Thông báo cho tôi khi người tôi theo đuôi đăng chủ đề."

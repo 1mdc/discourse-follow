@@ -1,0 +1,7 @@
+vi:
+  site_settings:
+    discourse_follow_enabled: "Kích hoạt chức năng theo đuôi."
+    follow_show_statistics_on_profile: "Hiện thị thông tin theo đuôi trang thành viên."
+    follow_notifications_enabled: "Kích hoạt các thông báo theo đuôi."
+    follow_followers_visible: "Hiển thị người theo đuôi thành viên."
+    follow_following_visible: "Hiển thị người thành viên theo đuôi."
